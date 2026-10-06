@@ -1,0 +1,75 @@
+{
+  "id": "/",
+  "name": "Bussiness Billing - POS & Invoicing",
+  "short_name": "BussinessBill",
+  "description": "Complete POS, inventory, billing, profit & loss, and business management SaaS application for PC, Mobile, and Tablet.",
+  "theme_color": "#2563eb",
+  "background_color": "#0f172a",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "start_url": "/",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["business", "finance", "productivity", "utilities"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "POS Counter Billing",
+      "short_name": "Billing",
+      "description": "Open cashier counter for fast barcode and invoice billing",
+      "url": "/?tab=billing",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Sales Dashboard",
+      "short_name": "Dashboard",
+      "description": "View live store sales, revenue and profit metrics",
+      "url": "/?tab=dashboard",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Inventory Products",
+      "short_name": "Products",
+      "description": "Quickly check and update item stock quantities",
+      "url": "/?tab=products",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

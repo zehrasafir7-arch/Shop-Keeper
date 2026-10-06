@@ -1,0 +1,6 @@
+{
+  "name": "Bussiness Billing",
+  "description": "Bussiness Billing - Billing Made Simple. Business Made Smarter. Complete POS, inventory, billing, profit & loss, and business management SaaS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
